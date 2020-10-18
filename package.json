@@ -1,0 +1,27 @@
+{
+  "name": "jukticss",
+  "version": "0.0.1",
+  "description": "this is the css framework -jukticss ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/node-sass/bin/node-sass assets/main.scss build/main.css --output-style compact ",
+    "watch": "./node_modules/node-sass/bin/node-sass assets/main.scss build/main.css --output-style compact -w "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monzoor/jukticss.git"
+  },
+  "author": "jukticss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monzoor/jukticss/issues"
+  },
+  "homepage": "https://github.com/monzoor/jukticss#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "bootstrap": "^4.5.2",
+    "node-sass": "^4.14.1",
+    "sass-node": "^4.11.2"
+  }
+}
