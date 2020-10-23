@@ -1,4 +1,6 @@
-
+*body{
+  width: 100%;
+}
 .background1 {
     background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/background.PNG) no-repeat center; 
     background-size: cover;
@@ -13,9 +15,15 @@
   &--pic {
     width: 390px;
     height: auto;
-    @media only screen and (max-width: 991px){
-      width: 362.43px;
+    @media only screen and (max-width: 1024px){ 
+      width: 290px;
+      height: auto;
     }
+    @media only screen and (max-width: 768px){ 
+      width: 330px;
+      height: auto;
+    }
+  
     @media only screen and (max-width: 420px){
       width: 300.43px;
       height: auto;
@@ -28,12 +36,12 @@
     height: 190px;
     @media only screen and (max-width: 1024px){ 
       background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/dot4.png) no-repeat right;
-      width: 200.91px;
+      width: 250.91px;
       height: 188.97px;
     }
-    @media only screen and (max-width: 767px){
+    @media only screen and (max-width: 768px){
       background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/dot4.png) no-repeat right top;
-      width: 60.91px;
+      width: auto;
       height: auto;
     }
 
@@ -61,17 +69,11 @@
       margin-left: 250px;
     }
     @media only screen and (max-width: 1024px){
-      margin-left: 100px;
+      margin-left: 180px;
     }  
-    @media only screen and (max-width: 991px){
-      width: 138.58px;
-      height: 138.58px;
-      margin-left: 2px;
-      margin-top: 12px;
-    }
     @media only screen and (max-width: 768px){
-      margin-left: 20px;
-      margin-top: -20px;
+      margin-left: 12px;
+      margin-top: -32px;
     }
     @media only screen and (max-width: 420px){
       width: 120.58px;
@@ -107,19 +109,26 @@
     }
     @media only screen and (max-width: 768px){
       margin-left: 450px;
+      height: 300px;
      
     }
     @media only screen and (max-width: 420px){
        height: 260px;
        width: 255px;
-      margin-left: 180px;
-      margin-top: -375px;
+       margin-left: 155px;
+       margin-top: -375px;
   
+}
+  @media only screen and (max-width: 375px){
+    height: 270px;
+    width: 200px;
+    margin-left: 170px;
+    margin-top: -375px;
 }
     @media only screen and (max-width: 360px){
       height: 270px;
       width: 200px;
-      margin-left: 180px;
+      margin-left: 160px;
       margin-top: -375px;
   
 }
@@ -130,7 +139,7 @@
    padding: 3px; 
   }
   @media only screen and (max-width: 420px){
-    padding: 5px;  
+    padding: 3px;  
    }
    @media only screen and (max-width: 768px){
     margin: 30px;
@@ -142,6 +151,25 @@
    }
 
 }
+.spacing{
+  @media only screen and (max-width: 768px){
+    margin: 30px;
+    margin-left: 75px;
+    justify-content: center;
+   }
+   @media only screen and (max-width: 1024px){
+    padding-left: 5px;  
+   }
+  @media only screen and (max-width: 420px){
+    padding:2px;
+    margin-left: 30px;
+  }
+  @media only screen and (max-width: 360px){
+    padding:5px;
+    margin-left:28px;
+  }
+}
+
 .blog {
     &--background {
       background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/background2.PNG) no-repeat right;
@@ -169,9 +197,6 @@
   .form--bg {
     background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/form.png) no-repeat center top;
     margin-top: -60px;
-    @media only screen and (max-width: 991px){
-      margin-top: 40px;
-    }
     @media only screen and (max-width: 420px){
       margin-top: 770px;
 
@@ -199,7 +224,6 @@
     }
     @media only screen and (max-width: 768px){
       margin-left: -240px;
-
   }
   @media only screen and (max-width: 420px){
      margin-left: -278px;
@@ -222,4 +246,5 @@
   @media only screen and (max-width: 360px){
     margin-top:100px;   
   }
+  
 }

@@ -1,18 +1,22 @@
+*body { width: 100%; }
+
 .background1 { background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/background.PNG) no-repeat center; background-size: cover; height: 960px; }
 
 @media only screen and (max-width: 360px) { .background1 { background-size: cover; font-weight: 50px; } }
 
 .about--pic { width: 390px; height: auto; }
 
-@media only screen and (max-width: 991px) { .about--pic { width: 362.43px; } }
+@media only screen and (max-width: 1024px) { .about--pic { width: 290px; height: auto; } }
+
+@media only screen and (max-width: 768px) { .about--pic { width: 330px; height: auto; } }
 
 @media only screen and (max-width: 420px) { .about--pic { width: 300.43px; height: auto; } }
 
 .about--dot { background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/dot4.png) no-repeat right; width: 200px; height: 190px; }
 
-@media only screen and (max-width: 1024px) { .about--dot { background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/dot4.png) no-repeat right; width: 200.91px; height: 188.97px; } }
+@media only screen and (max-width: 1024px) { .about--dot { background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/dot4.png) no-repeat right; width: 250.91px; height: 188.97px; } }
 
-@media only screen and (max-width: 767px) { .about--dot { background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/dot4.png) no-repeat right top; width: 60.91px; height: auto; } }
+@media only screen and (max-width: 768px) { .about--dot { background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/dot4.png) no-repeat right top; width: auto; height: auto; } }
 
 @media only screen and (max-width: 420px) { .about--dot { background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/dot4.png) no-repeat right top; margin: 25px; height: auto; } }
 
@@ -24,11 +28,9 @@
 
 @media only screen and (max-width: 1299px) { .about--ring { margin-left: 250px; } }
 
-@media only screen and (max-width: 1024px) { .about--ring { margin-left: 100px; } }
+@media only screen and (max-width: 1024px) { .about--ring { margin-left: 180px; } }
 
-@media only screen and (max-width: 991px) { .about--ring { width: 138.58px; height: 138.58px; margin-left: 2px; margin-top: 12px; } }
-
-@media only screen and (max-width: 768px) { .about--ring { margin-left: 20px; margin-top: -20px; } }
+@media only screen and (max-width: 768px) { .about--ring { margin-left: 12px; margin-top: -32px; } }
 
 @media only screen and (max-width: 420px) { .about--ring { width: 120.58px; height: 120.58px; margin-left: 2px; margin-top: -20px; } }
 
@@ -42,19 +44,29 @@
 
 @media only screen and (max-width: 1024px) { .dot--services { margin-left: 680px; } }
 
-@media only screen and (max-width: 768px) { .dot--services { margin-left: 450px; } }
+@media only screen and (max-width: 768px) { .dot--services { margin-left: 450px; height: 300px; } }
 
-@media only screen and (max-width: 420px) { .dot--services { height: 260px; width: 255px; margin-left: 180px; margin-top: -375px; } }
+@media only screen and (max-width: 420px) { .dot--services { height: 260px; width: 255px; margin-left: 155px; margin-top: -375px; } }
 
-@media only screen and (max-width: 360px) { .dot--services { height: 270px; width: 200px; margin-left: 180px; margin-top: -375px; } }
+@media only screen and (max-width: 375px) { .dot--services { height: 270px; width: 200px; margin-left: 170px; margin-top: -375px; } }
+
+@media only screen and (max-width: 360px) { .dot--services { height: 270px; width: 200px; margin-left: 160px; margin-top: -375px; } }
 
 @media only screen and (max-width: 360px) { .padd-Portfolio { padding: 3px; } }
 
-@media only screen and (max-width: 420px) { .padd-Portfolio { padding: 5px; } }
+@media only screen and (max-width: 420px) { .padd-Portfolio { padding: 3px; } }
 
 @media only screen and (max-width: 768px) { .padd-Portfolio { margin: 30px; margin-left: 75px; } }
 
 @media only screen and (max-width: 1024px) { .padd-Portfolio { padding: 5px; } }
+
+@media only screen and (max-width: 768px) { .spacing { margin: 30px; margin-left: 75px; justify-content: center; } }
+
+@media only screen and (max-width: 1024px) { .spacing { padding-left: 5px; } }
+
+@media only screen and (max-width: 420px) { .spacing { padding: 2px; margin-left: 30px; } }
+
+@media only screen and (max-width: 360px) { .spacing { padding: 5px; margin-left: 28px; } }
 
 .blog--background { background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/background2.PNG) no-repeat right; width: 851px; height: 1007.64px; position: relative; z-index: 1; }
 
@@ -67,8 +79,6 @@
 .downBar { background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/down.png) no-repeat center; }
 
 .form--bg { background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/form.png) no-repeat center top; margin-top: -60px; }
-
-@media only screen and (max-width: 991px) { .form--bg { margin-top: 40px; } }
 
 @media only screen and (max-width: 420px) { .form--bg { margin-top: 770px; } }
 
