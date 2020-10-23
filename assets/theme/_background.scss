@@ -1,10 +1,14 @@
+*body{
+  width: 100%;
+}
 .background1 {
     background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/background.PNG) no-repeat center; 
     background-size: cover;
     height: 960px;
-    @media only screen and (max-width: 991px){
-      background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/background.PNG) no-repeat right;
-    }  
+    @media only screen and (max-width: 360px){
+    background-size: cover;
+    font-weight: 50px;
+     }
 }
 .about {
   &--pic {
@@ -21,14 +25,18 @@
     background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/dot4.png) no-repeat right;
     width: 200px;
     height: 190px;
+    @media only screen and (max-width: 1024px){ 
+      background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/dot4.png) no-repeat right;
+      width: 200.91px;
+      height: 188.97px;
+    }
     @media only screen and (max-width: 767px){
-      background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/dot4.png) no-repeat top right;
+      background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/dot4.png) no-repeat right top;
       width: 60.91px;
       height: auto;
     }
 
     @media only screen and (max-width: 575px){
-      background: url(https://anik904.github.io/Bootstrap_project-Agency-Website/assets/image/dot4.png) no-repeat top right;
       width: auto;
       height: auto;
     }
@@ -40,21 +48,27 @@
     margin-left: 250px;
     margin-top: -42px;
     z-index: 1;
-    @media only screen and (max-width: 1300px){
-      margin-left: 228px;
+    @media only screen and (max-width: 1500px){
+      margin-left: 320px;
+    }
+    @media only screen and (max-width: 1367px){
+      margin-left: 255px;
     }
     @media only screen and (max-width: 1299px){
       margin-left: 250px;
     }
+    @media only screen and (max-width: 1024px){
+      margin-left: 100px;
+    }  
     @media only screen and (max-width: 991px){
       width: 138.58px;
       height: 138.58px;
       margin-left: 2px;
       margin-top: 12px;
     }
-    @media only screen and (max-width: 767px){
-      margin-left: 26px;
-      margin-top: 4px;
+    @media only screen and (max-width: 768px){
+      margin-left: 20px;
+      margin-top: -20px;
     }
     @media only screen and (max-width: 575px){
       width: 120.58px;
@@ -79,6 +93,19 @@
     margin-top: -480px;
     position: absolute;
     z-index: -5;
+    @media only screen and (max-width: 1500px){
+      margin-left: 1000px;
+    }
+    @media only screen and (max-width: 1367px){
+      margin-left: 920px;
+    }
+    @media only screen and (max-width: 1024px){
+      margin-left: 680px;
+    }
+    @media only screen and (max-width: 768px){
+      margin-left: 450px;
+     
+    }
     @media only screen and (max-width: 360px){
       height: 270px;
       width: 200px;
@@ -136,24 +163,33 @@
 
   }
   .footer--dot{
-    height: 346px;
+    height: 300px;
     width: 292px;
     margin-left: -160px;
-    margin-top: -240px;
+    margin-top: -225px;
     position: absolute;
+    @media only screen and (max-width: 1024px){
+      margin-left: -200px;
+    }
+    @media only screen and (max-width: 768px){
+      margin-left: -240px;
+
+  }
     @media only screen and (max-width: 360px){
       margin-top: -180px;
-      margin-left: -260px;
-      z-index: -1;
+      margin-left: -278px;
+     
 
       
     }
   }
   .respn{
-    @media only screen and (max-width: 360px){
-      margin-top:500px;
-
-      
-    }
+   
+    @media only screen and (max-width: 768px){
+      margin-top:50px;
 
   }
+  @media only screen and (max-width: 360px){
+    margin-top:100px;   
+  }
+}
